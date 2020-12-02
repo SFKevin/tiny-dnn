@@ -12,6 +12,9 @@
 #include <vector>
 
 #include "tiny_dnn/tiny_dnn.h"
+using namespace std;
+using namespace tiny_dnn;
+using namespace tiny_dnn::layers;
 
 void sample1_convnet(const string& data_dir = "../data");
 void sample2_mlp(const string& data_dir = "../data");
